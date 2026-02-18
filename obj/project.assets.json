@@ -51,11 +51,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/user/Desktop/C# Cource/Day10/Softclub/MainApp/MainApp.csproj",
+      "projectUniqueName": "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/MainApp/MainApp.csproj",
       "projectName": "MainApp",
-      "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/MainApp/MainApp.csproj",
+      "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/MainApp/MainApp.csproj",
       "packagesPath": "/Users/user/.nuget/packages/",
-      "outputPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/MainApp/obj/",
+      "outputPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/MainApp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/user/.nuget/NuGet/NuGet.Config"
@@ -70,11 +70,11 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "projectReferences": {
-            "/Users/user/Desktop/C# Cource/Day10/Softclub/Domain/Domain.csproj": {
-              "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Domain/Domain.csproj"
+            "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/Domain/Domain.csproj": {
+              "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/Domain/Domain.csproj"
             },
-            "/Users/user/Desktop/C# Cource/Day10/Softclub/Infrastructure/Infrastructure.csproj": {
-              "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Infrastructure/Infrastructure.csproj"
+            "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/Infrastructure/Infrastructure.csproj": {
+              "projectPath": "/Users/user/Desktop/C# Cource/Day10/Softclub/Softcl/Infrastructure/Infrastructure.csproj"
             }
           }
         }
