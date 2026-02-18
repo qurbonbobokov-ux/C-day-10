@@ -1,5 +1,4 @@
 using System;
-using System.Collections.Generic;
 using MainApp.Domain.Models;
 using MainApp.Infrastructure.Services;
 
@@ -39,33 +38,33 @@ namespace MainApp.Infrastructure.Services
 {
     public class DepartmentService
     {
-        private readonly List<Department> _departments = new List<Department>();
+        private readonly List<Department> departments = new List<Department>();
 
         public void AddDepartment(Department department)
         {
-            if (department == null) throw new ArgumentNullException(nameof(department));
-            _departments.Add(department);
+            if (department == null) new ArgumentNullException();
+            departments.Add(department);
         }
 
         public int CountDepartments()
         {
-            return _departments.Count;
+            return departments.Count;
         }
     }
 
     public class EmployeeService
     {
-        private readonly List<Employee> _employees = new List<Employee>();
+        private  List<Employee> employees = new List<Employee>();
 
         public void AddEmployee(Employee employee)
         {
-            if (employee == null) throw new ArgumentNullException(nameof(employee));
-            _employees.Add(employee);
+            if (employee == null) new ArgumentNullException();
+            employees.Add(employee);
         }
 
         public int CountEmployees()
         {
-            return _employees.Count;
+            return employees.Count;
         }
     }
 }
